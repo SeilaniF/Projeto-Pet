@@ -1,0 +1,142 @@
+* {
+    font-family: "Montserrat", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.logo-image {
+    width: 400px;
+    height: 450px;
+    margin-left: 125px;
+    display: inline-block;
+
+}
+
+.link-header {
+
+    font-weight: 500;
+    line-height: 29.26px;
+    text-align: left;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+    border-radius: 20.5px;
+    background: #665AE1;
+    width: 100px;
+    height: 35px;
+    border: none;
+    font-size: 20px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+
+
+}
+
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+    line-height: 121px;
+    color: #515151;
+
+}
+
+h2 {
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+p {
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.button-main {
+    background: #ADFF00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    color: #000000;
+
+
+}
+
+@media screen and (max-width: 798px) {
+    /* Esconde o menu (header) em telas pequenas */
+    header {
+        display: none;
+    }
+
+    /* Esconde o parágrafo (p) em telas pequenas */
+    p {
+        display: none;
+    }
+
+    /* Ajusta a imagem, reduzindo seu tamanho e centralizando */
+    .logo-image {
+        width: 70%; /* Define que a imagem terá 70% da largura da tela */
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Torna a imagem um bloco para poder centralizar */
+        margin: 120px auto 0; /* Adiciona margem superior para empurrar a imagem para baixo e centraliza horizontalmente */
+    }
+
+    /* Organiza o conteúdo da section em coluna e centraliza */
+    section {
+        display: flex;
+        flex-direction: column; /* Coloca os itens em coluna */
+        align-items: center; /* Alinha os itens ao centro horizontalmente */
+        text-align: center; /* Alinha o texto ao centro */
+        margin: 20px; /* Adiciona uma margem ao redor da section */
+    }
+
+    /* Ajusta o título h1 */
+    h1 {
+        font-size: 50px; /* Define o tamanho da fonte do título */
+        line-height: 60.95px; /* Ajusta a altura da linha */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 20px; /* Adiciona um espaço abaixo do título */
+    }
+
+    /* Ajusta o subtítulo h2 */
+    h2 {
+        font-size: 30px; /* Define o tamanho da fonte do subtítulo */
+        line-height: 40px; /* Ajusta a altura da linha */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 20px; /* Adiciona um espaço abaixo do subtítulo */
+    }
+
+    /* Ajusta o botão */
+    .button-main {
+        width: 200px; /* Define a largura do botão */
+        height: 50px; /* Define a altura do botão */
+        font-size: 16px; /* Define o tamanho da fonte do botão */
+        margin-top: 20px; /* Adiciona um espaço entre o subtítulo e o botão */
+    }
+}
