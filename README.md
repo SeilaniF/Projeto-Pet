@@ -1,7 +1,7 @@
 # We Care
 
 O projeto **We Care** é uma página web dedicada a oferecer informações sobre cuidados para pets. O site apresenta uma estrutura simples e moderna, com links para diferentes seções como Home, About, Product, Service, e Contact. O objetivo é criar uma plataforma fácil de navegar para os donos de animais de estimação.
-
+<img src="https://github.com/SeilaniF/Projeto-Pet/blob/master/img/Capturarpet.PNG?raw=true">
 ## Estrutura do Projeto
 
 - **index.html**: O arquivo principal que contém a estrutura do site.
